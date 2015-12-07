@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300);
+html, body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.bg-image {
+  display: block;
+  background-image: url("../images/medium.jpg");
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%; }
+  @media (min-width: 1280px) {
+    .bg-image {
+      background-image: url("../images/large.jpg"); } }
+  @media (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
+    .bg-image {
+      background-image: url("../images/large@2x.jpg"); } }
+  @media (min-width: 781px) and (max-width: 1279px) {
+    .bg-image {
+      background-image: url("../images/medium.jpg");
+      height: 500px; } }
+  @media (min-width: 781px) and (max-width: 1279px) and (-webkit-min-device-pixel-ratio: 2) {
+    .bg-image {
+      background-image: url("../images/medium@2x.jpg");
+      height: 500px; } }
+  @media (max-width: 780px) {
+    .bg-image {
+      background-image: url("../images/small.jpg");
+      height: 300px; } }
+  @media (max-width: 780px) and (-webkit-min-device-pixel-ratio: 2) {
+    .bg-image {
+      background-image: url("../images/small@2x.jpg");
+      height: 300px; } }
