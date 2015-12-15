@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Picturefill</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<h1>Picturefill</h1>
+	<div class="picture-element-container">
+		<h3>Picture Element</h3>
+		<p>The picture element is used when you need explicit control over which source is shown at set viewport sizes.</p>
+		<picture class="pe-image">
+		  <source srcset="images/large.jpg, images/large@2x.jpg 2x" media="(min-width: 1280px)">
+		  <source srcset="images/small.jpg, images/small@2x.jpg 2x" media="(max-width: 768px)">
+		  <img srcset="images/medium.jpg, images/medium@2x.jpg 2x" alt="">
+		</picture>
+	</div>
+	<script src="components/picturefill/dist/picturefill.min.js"></script>
+</body>
+</html>
