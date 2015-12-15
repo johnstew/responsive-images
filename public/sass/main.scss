@@ -24,7 +24,7 @@ img{
 	}
 	
 	@media (min-width: 1280px)
-	and (-webkit-min-device-pixel-ratio: 2),
+	and (-webkit-min-device-pixel-ratio: 2)
 	and (min-resolution: 192dpi){
 		background-image: url('../images/large@2x.jpg');
 	}
@@ -34,8 +34,8 @@ img{
 		height: 500px;
 	}
 
-	@media (min-width: 781px) and (max-width: 1279px), 
-	and (-webkit-min-device-pixel-ratio: 2),
+	@media (min-width: 781px) and (max-width: 1279px)
+	and (-webkit-min-device-pixel-ratio: 2)
 	and (min-resolution: 192dpi){
 		background-image: url('../images/medium@2x.jpg');
 		height: 500px;
@@ -47,7 +47,7 @@ img{
 	}
 
 	@media (max-width: 780px)
-	and (-webkit-min-device-pixel-ratio: 2),
+	and (-webkit-min-device-pixel-ratio: 2)
 	and (min-resolution: 192dpi){
 		background-image: url('../images/small@2x.jpg');
 		height: 300px;

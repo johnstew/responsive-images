@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Picturefill</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<h1>Picturefill</h1>
+
+	<div class="ss-container">
+		<h3>Image with srcset and sizes attribute</h3>
+		<p>The srcset and sizes syntaxes are used to provide the browser with a list of image sources that are identical apart from their size (same aspect ratio, same focal point) and how they’ll be displayed, then allow the browser to choose the source best for the user’s current viewport size, display density, and the size of that image in the page layout.</p>
+		<img
+		  sizes="100%"
+		  src="images/small.jpg"
+		  srcset="images/small.jpg 400w,
+		          images/medium.jpg 800w,
+		          images/large.jpg 1280w"
+		  alt="">
+	</div>
+	<script src="components/picturefill/dist/picturefill.min.js"></script>
+</body>
+</html>
